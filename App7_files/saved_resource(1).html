@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)https://fiddle.jshell.net/azuvc3w5/35/show/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title></title>
+  
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <script type="text/javascript" src="./dummy.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="./result-light.css">
+
+
+  <style id="compiled-css" type="text/css">
+      
+  </style>
+
+
+  <!-- TODO: Missing CoffeeScript 2 -->
+
+  <script type="text/javascript">
+
+
+    window.onload=function(){
+      
+new Vue({
+
+  el: '#app',
+
+  data: {
+   ingredientes: ['Agua', 'Azucar', 'Sal', 'Pimienta'], 
+   people: [
+  
+   {name: 'Max', age: 23 },
+   {name: 'Marie', age: 16},
+   {name: 'Lucas', age: 34}
+   ]
+   
+  }
+  
+  
+
+
+
+});
+
+
+    }
+
+</script>
+
+</head>
+<body>
+    <script src="./vue"></script>
+
+
+<div id="app"><ul><li>Agua</li><li>Azucar</li><li>Sal</li><li>Pimienta</li></ul> <button>Agregar</button></div>
+
+
+  
+  <script>
+    // tell the embed parent frame the height of the content
+    if (window.parent && window.parent.parent){
+      window.parent.parent.postMessage(["resultsFrame", {
+        height: document.body.getBoundingClientRect().height,
+        slug: "azuvc3w5"
+      }], "*")
+    }
+
+    // always overwrite window.name, in case users try to set it manually
+    window.name = "result"
+  </script>
+
+
+</body></html>
