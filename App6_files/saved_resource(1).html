@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!-- saved from url=(0035)https://fiddle.jshell.net/_display/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title></title>
+  
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <script type="text/javascript" src="./dummy.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="./result-light.css">
+
+
+  <style id="compiled-css" type="text/css">
+      
+  </style>
+
+
+  <!-- TODO: Missing CoffeeScript 2 -->
+
+  <script type="text/javascript">
+
+
+    window.onload=function(){
+      
+new Vue({
+
+  el: '#app',
+
+  data: {
+   ingredientes: ['Agua', 'Azucar', 'Sal', 'Pimienta']
+  }
+  
+  
+
+
+
+});
+
+
+    }
+
+</script>
+
+</head>
+<body>
+    <script src="./vue"></script>
+
+
+<div id="app"><ul><li>Agua</li><li>Azucar</li><li>Sal</li><li>Pimienta</li></ul></div>
+
+
+  
+  <script>
+    // tell the embed parent frame the height of the content
+    if (window.parent && window.parent.parent){
+      window.parent.parent.postMessage(["resultsFrame", {
+        height: document.body.getBoundingClientRect().height,
+        slug: ""
+      }], "*")
+    }
+
+    // always overwrite window.name, in case users try to set it manually
+    window.name = "result"
+  </script>
+
+
+</body></html>
