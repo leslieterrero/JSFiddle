@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!-- saved from url=(0035)https://fiddle.jshell.net/_display/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title></title>
+  
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <script type="text/javascript" src="./dummy.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="./result-light.css">
+
+
+  <style id="compiled-css" type="text/css">
+      .demo {
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+  display: inline-block;
+  margin: 10px;
+}
+  </style>
+
+
+  <!-- TODO: Missing CoffeeScript 2 -->
+
+  <script type="text/javascript">
+
+
+    window.onload=function(){
+      
+new Vue({
+
+  el: '#app',
+  
+  data: {
+    width: 50 ,
+    color: 'blue'
+  },
+  
+  computed: {
+  
+  myStyle: function(){
+  
+  return{
+  
+  backgroundColor: this.color,
+  width: this.width + 'px'
+  
+       }
+    }
+ }
+  
+  
+});
+
+    }
+
+</script>
+
+</head>
+<body>
+    <script src="./vue"></script>
+
+
+<div id="app"><div class="demo" style=""></div> <div class="demo" style="width: 300px;"></div> <div class="demo"></div> <hr> <input type="text"> <input type="text"></div>
+
+  
+  <script>
+    // tell the embed parent frame the height of the content
+    if (window.parent && window.parent.parent){
+      window.parent.parent.postMessage(["resultsFrame", {
+        height: document.body.getBoundingClientRect().height,
+        slug: ""
+      }], "*")
+    }
+
+    // always overwrite window.name, in case users try to set it manually
+    window.name = "result"
+  </script>
+
+
+</body></html>
